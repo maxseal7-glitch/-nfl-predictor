@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node 'server 2.mjs'"
+    "start": "node server-ai-v4.mjs"
   },
   "engines": {
     "node": ">=20"
