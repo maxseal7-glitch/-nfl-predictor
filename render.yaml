@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nfl-predictor
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
